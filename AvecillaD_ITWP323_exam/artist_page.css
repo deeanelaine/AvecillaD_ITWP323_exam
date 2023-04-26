@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+*:focus{
+    outline: none;
+}
+
+body{
+    width: 100%;
+    background: #fafafa;
+    position: relative;
+    padding-top: 100px;
+    padding-right: 30px;
+    padding-left: 30px;
+    font-family: Verdana, sans-serif;
+
+    background-image: url('origami-paper.png');
+    background-repeat: no-repeat;
+    background-size: 90%;
+    background-position: right bottom;
+}
+
+.navbar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80px;
+    background: #800020;
+    border-bottom: 1px solid #C1C8E4;
+    display: flex;
+    justify-content: center;
+    padding: 5px 0;
+}
+
+.nav-wrapper{
+    width: 70%;
+    max-width: 1100px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+  
+ 
+ 
+  width: 200px;
+  height: 150px;
+}
+
+
+
+.nav-items{
+    height: 22px;
+    position: relative;
+}
+
+.icon{
+    height: 100%;
+    cursor: pointer;
+    margin-top: 2px;
+    margin: 0 10px;
+    display: inline-block;
+    font-family: Verdana, sans-serif;
+    font-size: 15px;
+    text-decoration: none;
+    color: white;
+
+    padding: 0;
+    border: none;
+    background: none;
+}
+
+
+div.gallery {
+  border: 1px solid #ccc;
+  width: 340px;
+  height: 550px;
+  padding: 20px;
+  border-radius: 5%;
+}
+
+div.gallery img {
+  width: 300px;
+  height: 400px;
+  float: center;
+  border-radius: 5%;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;font-family: Verdana, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 350px;
+  height: 600px;
+}

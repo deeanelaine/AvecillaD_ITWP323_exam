@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+*:focus{
+    outline: none;
+}
+
+body{
+    width: 100%;
+    background: #fafafa;
+    position: relative;
+    
+    padding-right: 30px;
+    padding-left: 30px;
+    font-family: Verdana, sans-serif;
+}
+
+.navbar{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 80px;
+  background: #800020;
+  border-bottom: 1px solid #C1C8E4;
+  display: flex;
+  justify-content: center;
+  padding: 5px 0;
+}
+
+.nav-wrapper{
+  width: 70%;
+  max-width: 1100px;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo{
+width: 200px;
+height: 150px;
+}
+
+.nav-items{
+    height: 22px;
+    position: relative;
+}
+
+.icon{
+    height: 100%;
+    cursor: pointer;
+    margin-top: 2px;
+    margin: 0 10px;
+    display: inline-block;
+    font-family: Verdana, sans-serif;
+    font-size: 15px;
+    text-decoration: none;
+    color: white;
+
+    padding: 0;
+    border: none;
+    background: none;
+}
+
+div.gallery-artist {
+  float: center;
+  width: 1900px;
+  height: 600px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 80px;
+  background: #EADDCA;
+}
+
+div.gallery-artist img {
+  width: 500px;
+  height: 600px;
+  float: right;
+}
+div.name-artist {
+  padding-top: 60px;
+  padding-left: 50px;
+  padding-right: 400px;
+  text-align: left;
+  font-family: Verdana, sans-serif;
+  font-size: 60px;
+}
+div.desc-artist {
+  padding-top: 30px;
+  padding-left: 50px;
+  padding-right: 400px;
+  text-align: left;
+  font-family: Verdana, sans-serif;
+  font-size: 20px;
+}
+.responsive-artist {
+  float:center;
+  width: 100%;
+  height: 600px;
+}
+
+
+div.gallery-left {
+  border: 1px solid #EADDCA;
+  width: 1800px;
+  height: 400px;
+  padding: 20px;
+}
+div.gallery-left img {
+  width: 600px;
+  height: 350px;
+  float: left;
+  border-radius: 5%;
+}
+
+div.name-left {
+  padding: 20px;
+  padding-left: 650px;
+  text-align: left;
+  font-family: Verdana, sans-serif;
+  font-size: 40px;
+}
+div.desc-left {
+  padding: 20px;
+  padding-left: 650px;
+  text-align: left;
+  font-family: Verdana, sans-serif;
+  font-size: 20px;
+}
+
+
+div.gallery-right {
+  width: 1800px;
+  height: 400px;
+  padding: 20px;
+  background-color:#EADDCA;
+}
+div.gallery-right img {
+  width: 600px;
+  height: 350px;
+  float: right;
+  border-radius: 5%;
+}
+div.name-right {
+  padding: 20px;
+  padding-right: 650px;
+  text-align: left;
+  font-family: Verdana, sans-serif;
+  font-size: 40px;
+}
+div.desc-right {
+  padding: 20px;
+  padding-right: 650px;
+  text-align: left;
+  font-family: Verdana, sans-serif;
+  font-size: 20px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 50px;
+  width: 1800px;
+  height: 400px;
+}
